@@ -1,0 +1,1445 @@
+/* =========== GENERAL CSS STARTS =========== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background: #f5f7fa; */
+  background: #fff;
+}
+
+a.showAll {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  float: right;
+  word-spacing: 4px;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover.showAll {
+  color: #A60002;
+}
+
+.showAll span {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.pull-right {
+  margin: 10px 35px 0 0;
+}
+
+.breadcrumb {
+  margin-top: 20px;
+}
+/* =========== GENERAL CSS ENDS =========== */
+
+/* ++++++++++++++++++++ INDEX.HTML CSS ++++++++++++++++++++ */
+/* =========== HEADER CSS STARTS =========== */
+.top {
+  background: #e50716;
+}
+
+.contact {
+  padding-top: 10px;
+  padding-bottom: 12px;
+  font-size: 15px;
+}
+
+.contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact ul li {
+  position: relative;
+  float: left;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.contact ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact i {
+  padding-right: 2px;
+}
+
+.information {
+  background-color: #e50000;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  height: 47px;
+}
+
+.information i {
+  margin-top: 14px;
+}
+
+.information .fa-phone {
+  margin-left: 110px;
+}
+
+.information .fa-envelope-o {
+  margin-left: 20px;
+}
+
+.carouselNuh div img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.box {
+  /* background-color: rgba(178, 76, 49, 0.74); */
+  background-color: rgba(207, 21, 21, 0.6);
+  width: 280px;
+  height: 124px;
+  text-align: left;
+  line-height: 6px;
+  margin: 0 0 15% 8.24%;
+}
+
+.box h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #f5f7fa;
+  margin: 20px;
+  padding-top: 5px;
+}
+
+.box p:nth-of-type(1) {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 20px;
+  color: #f5f7fa;
+}
+
+.box p:nth-of-type(2) {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  color: #ffce54;
+  margin: 20px;
+}
+
+.box a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 14px 0 0 34px;
+  text-decoration: none;
+}
+
+.box a.reviewHotel {
+  background-color: #fff;
+  color: #ed5565;
+  width: 139px;
+  height: 33px;
+  border: none;
+  border-radius: 3px;
+  float: right;
+  margin-right: 20px;
+}
+/* =========== NAVBAR CSS STARTS =========== */
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-light {
+  background-repeat: no-repeat;
+  background-position: right;
+  right: 0;
+}
+
+.menu-large {
+  position: static !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.navbar-brand img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+}
+
+.navbar-light .navbar-nav #earlyReservation {
+  color: rgb(193, 6, 6);
+}
+
+.megamenu {
+  padding: 20px 20px;
+  width: 78%;
+  top: 75px;
+  left: 11%;
+  z-index: 1001;
+}
+
+.megamenu span {
+  float: right;
+}
+
+.megamenu span i {
+  font-size: 11px;
+}
+
+.megamenu>div>li>ul {
+  padding: 0;
+  margin: 0;
+}
+
+.megamenu>div>li>ul>li {
+  list-style: none;
+}
+
+.megamenu>div>li>ul>li>a {
+  display: block;
+  clear: both;
+  font-weight: normal;
+  line-height: 20px;
+  color: #333333;
+  white-space: normal;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.megamenu>div>li>ul>li>a:hover,
+.megamenu>div>li>ul>li>a:focus {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333 !important;
+}
+
+.megamenu.disabled>a,
+.megamenu.disabled>a:hover,
+.megamenu.disabled>a:focus {
+  color: #999999;
+}
+
+.megamenu.disabled>a:hover,
+.megamenu.disabled>a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+  cursor: not-allowed;
+}
+
+.megamenu .dropdown-header {
+  color: #428bca;
+  font-size: 15px;
+  padding: 0;
+  border-bottom: 1px solid #428bca;
+}
+
+.dropdown-item:hover,
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:visited {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* @media (max-width: 768px) {
+.megamenu {
+margin-left: 0;
+margin-right: 0;
+}
+.megamenu > li {
+margin-bottom: 30px;
+}
+.megamenu > li:last-child {
+margin-bottom: 0;
+}
+.megamenu.dropdown-header {
+padding: 3px 15px !important;
+}
+.navbar-nav .open .dropdown-menu .dropdown-header {
+color: #fff;
+}
+} */
+/* =========== NAVBAR CSS ENDS ===========  */
+
+/* =========== SEARCH BAR CSS STARTS ==========*/
+.main-search-form {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  margin-top: 27%;
+  cursor: pointer;
+}
+
+.main-search-form .nav-tabs {
+  border-bottom: none;
+}
+
+.main-search-form .nav-tabs .nav-link {
+  border: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  /* background-color: rgba(144, 103, 238, 0.65); */
+  background-color: rgba(207, 21, 21, 0.6);
+  text-transform: uppercase;
+  min-width: 100px;
+  height: 44px;
+  line-height: 44px;
+  padding: 0;
+  text-align: center;
+}
+
+.main-search-form .nav-tabs .nav-link.active {
+  color: #fff;
+  /* background-color: rgba(67, 25, 161, 0.65); */
+  background-color: rgba(0,0,0,.6);
+  border-color: transparent;
+}
+
+.main-search-form .tab-content .tab-pane {
+  width: 97.5%;
+  padding: 30px;
+  /* background-color: rgba(67, 25, 161, 0.65); */
+  background-color: rgba(0,0,0,.6);
+}
+
+.main-search-form .tab-content .tab-pane h6 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.main-search-form .tab-content .tab-pane form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-search-form .tab-content .tab-pane form .custom-select {
+  height: 52px;
+  border-radius: 0;
+  padding: 0 80px 0 40px;
+  color: #72728c;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  margin-right: 10px;
+}
+
+/* =========== SEARCH BAR CSS ENDS ========== */ 
+/* =========== HEADER CSS ENDS ===========  */
+
+
+/* =========== TOURS SECTION CSS STARTS =========== */
+.tours {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  background: #fff;
+  padding: 32px 0 50px 0;
+}
+
+.tours i {
+  padding-right: 3px;
+}
+
+.tours h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  color: #4fc1e9;
+}
+
+.tours h2 .domestic {
+  color: #434a54;
+}
+
+.tours h2 .abroad {
+  color: #48cfad;
+}
+
+.toursHeader .blue {
+  color: #5fc5ea;
+}
+
+.TourCard {
+  border: 1px solid #eaeaea;
+  margin-bottom: 15px;
+  line-height: 6px;
+  min-height: 200px;
+  background-color: #fff; 
+}
+
+.TourInformation {
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px 0 30px 10px;    
+}
+
+.TourInformation h3 {
+  font-weight: 800;
+  color: #434a54;
+}
+
+.toursCardBadges {
+  z-index: 99;
+  font-size: 14px;
+  position: absolute;
+  width: 50%;
+	float:left;
+}
+
+.toursCardBadges .badge {
+  margin-top: 10px;
+  margin-left: 4px;
+  color: white;
+  display: table;
+}
+
+.toursCardBadges .badge-success {
+  background-color: #8cc152;
+}
+.tourDate {margin-left:10%; width:90%; position:absolute;}
+.tourDateDD {
+  color: #4d4d4d !important;
+  font-size: 12px;
+  width: 40%;
+  height: 30px !important;
+  padding: 3px 10px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+	top:10px;
+	
+}
+/* .toursCardBadges .btn-group button {
+  font-size: 10px;
+  background-color: #fff;
+  color: #000;
+  float: left;
+} */
+
+.TourCard img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.toursCardCity {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.toursCardCity i {
+  font-size: 13px;
+  margin-right: 4px;
+}
+
+.toursCardDate {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.toursCardDate i {
+  font-size: 13px;
+}
+
+.perPerson {
+  font-size: 10px;
+  text-align: right;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.toursCardPrice {
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+  margin-right: 10px;
+}
+
+.toursCardPrice a.buttonPrice {
+
+  font-size: 12px;
+  width: 144px;
+  background-color: #0096fb;
+  padding: 5px 5px 5px 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.toursCardPrice a.buttonPrice span {
+  font-size: 12px;
+  background-color: #007bcd;
+  padding: 5px 5px 5px 5px;
+  margin-right: 10px;
+  color: #fff;
+}
+/* =========== TOURS SECTION CSS ENDS ===========  */
+
+/* =========== MOST PREFERRED SECTION CSS STARTS =========== */
+.mostPreferred {
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.mostPreferred .back {
+  font-family: 'Open Sans', sans-serif;
+  color: #b8b9bb;
+  font-size: 23px;
+  text-align: left;
+}
+
+.mostPreferred .forward {
+  font-family: 'Open Sans', sans-serif;
+  color: #b8b9bb;
+  font-size: 23px;
+  text-align: right;
+}
+
+.mostPreferred h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #4a89dc;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mostPreferred .img-thumbnail {
+  max-width: 100%;
+  height: 285px;
+  object-fit: cover;
+  border: none;
+  border-radius: none;
+}
+
+.mostPreferred .green {
+  color: #acbf9c;
+}
+
+.mostPreferred .blue {
+  color: #6295cc;
+}
+
+.mostPreferred .purple {
+  color: #a677c7;
+}
+
+.mostPreferred .pink {
+  color: #d08590;
+}
+
+.mostPreferred h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: lighter;
+}
+
+.mostPreferred p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  text-align: center;
+  font-size: 13px;
+  line-height: 40px;
+}
+/* =========== MOST PREFERRED SECTION CSS ENDS ===========  */
+
+/* =========== FOOTER CSS STARTS =========== */
+footer {
+  width: 100%;
+}
+
+.textCampain {
+  color: rgb(167, 13, 13);
+}
+
+.footer-top {
+  margin-bottom: 15px;
+}
+
+.footer-top .socialMedia {
+  margin-top: 10px;
+  margin-bottom: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-top .socialMedia li {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 6%;
+}
+
+.footer-top .socialMedia li a {
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-top .socialMedia li a i {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 41px;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #222222;
+  color: #fff;
+  margin: 0 3px 3px 0;
+  text-align: center;
+}
+
+.footer-middle {
+  width: 100%;
+  height: 46px;
+  background-color: #ee3342;
+}
+
+.footer-middle .footer-middle-menu {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  /* display: block; */
+}
+
+.footer-middle .footer-middle-menu li {
+  padding-top: 10px;
+  padding-right: 15px;
+  /* display: inline-block; */
+  float: left;
+}
+
+.footer-middle .footer-middle-menu li a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-middle .call-center {
+  margin-top: 10px;
+}
+
+.footer-middle .call-center a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #222;
+  color: #fff;
+  padding: 35px 0 5px 0;
+}
+
+.footer-bottom h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+.footer-bottom .footer-bottom-menu li {
+  list-style-type: none;
+  line-height: 17px;
+}
+
+.footer-bottom .footer-bottom-menu li a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.footer-bottom .footer-bottom-text {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 12px;
+  line-height: 18px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.footer-bottom .copyright-logos ul {
+  list-style-type: none;
+  /* margin-top: 14px; */
+}
+
+.footer-bottom .copyright-logos .float-left li {
+  margin-top: 12px;
+  display: inline-block;
+  padding-right: 3px;
+  font-size: 14px;
+}
+
+.footer-bottom .copyright-logos .float-left li:nth-of-type(3) a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-bottom .copyright-logos .float-left li img {
+  margin-bottom: 6px;
+  width: 100%;
+  height: 15px;
+}
+
+.footer-bottom .copyright-logos .float-right li {
+  display: inline-block;
+  padding-left: 5px;
+}
+/* =========== FOOTER CSS ENDS ===========  */
+/* ++++++++++++++++++++ INDEX.HTML CSS ENDS ++++++++++++++++++++ */
+
+/* ++++++++++++++++++++ TUR.HTML CSS STARTS ++++++++++++++++++++ */
+/* .jumbotron-fluid {
+background-image: url('../images/yeo-khee-612822-unsplash.jpg');
+background-color: #17234E;
+margin-bottom: 0;
+max-height: 20%;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+} */
+
+/* =========== TOURS PAGE SECTION CSS STARTS =========== */
+.search-banner {
+  margin-top: 20px;
+}
+
+.search-banner .card button {
+  margin-top: 32px;
+}
+
+.toursPage {
+  margin: 30px 0 30px 0;
+}
+
+.toursPage .card-img-top {
+  min-height: 215px;
+  max-height: 215px;
+  object-fit: cover;
+}
+
+.toursPage .card-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  margin: 10px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+}
+
+.toursPage .list-group-item {
+  width: 100%;
+  padding: 5px 0 5px 21px;
+}
+
+.toursPage .list-group-item a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 0.7px;
+}
+
+.toursPage i {
+  float: right;
+  padding: 5px 10px 5px 0;
+}
+/* =========== TOURS PAGE SECTION CSS ENDS =========== */
+/* ++++++++++++++++++++ TUR.HTML CSS ENDS ++++++++++++++++++++  */
+
+/* ++++++++++++++++++++ TURLİSTESİ.HTML CSS STARTS ++++++++++++++++++++ */
+/* =========== SIDEBAR SECTION CSS STARTS =========== */
+.sidebar-wrap {
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.sidebar-wrap .heading {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.sidebar-wrap .fields {
+  width: 100%;
+  position: relative;
+}
+
+.sidebar-wrap .fields .form-control {
+  border: transparent;
+  background: #fff !important;
+  color: #4d4d4d !important;
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+  width: 100%;
+  height: 52px !important;
+  padding: 10px 20px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+
+.sidebar-wrap .fields .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #4d4d4d;
+}
+
+.sidebar-wrap .fields .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #4d4d4d;
+}
+
+.sidebar-wrap .fields .form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #4d4d4d;
+}
+
+.sidebar-wrap .fields .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #4d4d4d;
+}
+
+.sidebar-wrap .form-group .btn {
+  width: 100%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  background: #f85959;
+  border: 1px solid #f85959;
+  color: #fff;
+}
+/* =========== SIDEBAR SECTION CSS ENDS =========== */
+
+/* =========== TOURLIST SECTION CSS STARTS =========== */
+.toursListCard .card {
+  margin-bottom: 30px;
+}
+
+.toursList img {
+  max-height: 260px;
+  object-fit: cover;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+/* =========== TOURLIST SECTION CSS ENDS =========== */
+/* ++++++++++++++++++++ TURLİSTESİ.HTML CSS ENDS ++++++++++++++++++++  */
+
+/* ++++++++++++++++++++ TURDETAY.HTML CSS STARTS ++++++++++++++++++++ */
+.tourDetailsHeader {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: #e50716;
+  text-align: left;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.tourDetailsType {
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.tourDetailsSocials {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  margin-left: 37px;
+  margin-top: 20px;
+}
+
+.tourDetailsSocials li {
+  list-style-type: none;
+  float: left;  
+  padding: 8px;
+}
+
+.tourDetailsSocials li a {
+  color: #000;
+}
+
+/* =========== tourDetailsCard CSS Starts =========== */
+.tourDetailsCard .card {
+  border: none;
+}
+
+.tourDetailsCard .tourDetailsCarousel img {
+  height: 480px;
+  object-fit: cover;
+}
+
+/* =========== tourDetailsCard CSS Ends =========== */
+
+/* =========== tabsJustified CSS Starts =========== */
+#tabsJustifiedTour .nav-item {
+  width: 100%;
+}
+
+#tabsJustifiedTour .nav-item a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 500; 
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid rgba(0,0,0,.125);
+  text-align: center;
+}
+
+#tabsJustifiedTour .nav-item a.active {
+  background-color: #e50716;
+  color: #fff;
+  border-bottom: none;
+}
+
+.programme-day {
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #e50716;
+}
+
+.programme-location {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #e50716;
+}
+
+.programme-date {
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #000;
+}
+
+.programme-explanation {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  border-left: 1px solid #343a40;
+  padding: 0 0 10px 10px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.information-header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.information-list li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #343a40;
+  list-style-type: none;
+}
+
+.information-list li i {
+  padding-right: 5px;
+}
+
+.param {
+  margin-bottom: 7px;
+  line-height: 1.4;
+}
+
+.param-inline dt {
+  display: inline-block;
+}
+
+.param dt {
+  margin: 0;
+  margin-right: 7px;
+  font-weight: 600;
+}
+
+.param-inline dd {
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+.shopping-cart-wrap .price {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+  display: block;
+}
+
+var {
+  font-style: normal;
+}
+
+.media img {
+  margin-right: 1rem;
+}
+
+.img-sm {
+  width: 90px;
+  max-height: 75px;
+  object-fit: cover;
+}
+
+.comment-wrapper .panel-body {
+    max-height:650px;
+    overflow:auto;
+}
+
+.comment-wrapper .media-list .media img {
+    width:64px;
+    height:64px;
+    border:2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+    border-bottom:1px dashed #efefef;
+    margin-bottom:25px;
+}
+/* =========== tabsJustified CSS Ends =========== */
+/* ++++++++++++++++++++ TURDETAY.HTML PAGE CSS ENDS ++++++++++++++++++++  */
+
+/* ++++++++++++++++++++ HAKKIMIZDA.HTML PAGE CSS STARTS ++++++++++++++++++++  */
+.about-us-header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+}
+
+.about-us-list li {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.about-us-list li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.about-us-description {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #000;
+  margin-top: 10px;
+}
+
+.about-us-description h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.about-us-description p {
+  font-size: 14px;
+}
+/* ++++++++++++++++++++ HAKKIMIZDA.HTML PAGE CSS ENDS ++++++++++++++++++++  */
+
+/* ++++++++++++++++++++ İLETİŞİM.HTML PAGE CSS STARTS ++++++++++++++++++++  */
+.contact-us-form {
+  margin-top: 20px;
+}
+
+.contact-us-form h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.contact-us-form p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #7a7a7a;
+  font-size: 14px;
+}
+
+.contact-us-form label {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+.contact-us-information {
+  margin-top: 20px;
+}
+
+.contact-us-information h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: 000;
+  text-transform: uppercase;
+}
+
+.contact-us-information hr {
+  background-color: red;
+  width: 15%;
+}
+
+.contact-us-information ul li {
+  list-style-type: none;
+  color: #7a7a7a;
+}
+
+.contact-us-information ul li i {
+  padding-right: 10px;
+  color: #7a7a7a;
+  font-size: 15px;
+}
+/* ++++++++++++++++++++ İLETİŞİM.HTML PAGE CSS ENDS ++++++++++++++++++++  */
+
+/* ++++++++++++++++++++ OTELLİSTESİ.HTML PAGE CSS STARTS ++++++++++++++++++++  */
+.hotel-list-card {
+  border: 1px solid #eaeaea;
+  margin-bottom: 15px;
+  background-color: #fff;
+  line-height: 6px;
+  min-height: 200px;
+}
+
+.hotel-list-card-badges {
+  z-index: 99;
+  font-size: 14px;
+  position: absolute;
+  width: 100%;
+  /* float:left; */
+}
+
+.hotel-list-card-badges .badge {
+  margin-top: 10px;
+  margin-left: 4px;
+  color: white;
+}
+
+.hotel-list-card-badges .badge-info {
+  background-color: #3bafda;
+}
+
+.hotel-list-card-badges .badge-success {
+  background-color: #8cc152;
+}
+
+.hotel-list-card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.hotel-list-card-information {
+  padding: 20px 0 0 0;
+}
+
+.hotel-list-card-information h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: #434a54;
+}
+
+.hotel-list-card-city {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.hotel-list-card-information .hotel-list-card-include {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+
+.hotel-list-card-price {
+  float: right;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.hotel-list-card-price a.buttonPrice {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  width: 144px;
+  background-color: #0096fb;
+  padding: 15px 15px 15px 15px;
+  text-decoration: none;
+  color: #fff;
+}
+/* ++++++++++++++++++++ OTELLİSTESİ.HTML PAGE CSS ENDS ++++++++++++++++++++  */
+
+/* ++++++++++++++++++++ OTELDETAY.HTML PAGE CSS STARTS ++++++++++++++++++++  */
+.hotelDetailsHeader {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: #e50716;
+  text-align: left;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.hotelDetailsType {
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+/* =========== hotelDetailsCard CSS Starts =========== */
+.hotelDetailsCard .card {
+  border: none;
+}
+
+.hotelDetailsCard .hotelDetailsCarousel img {
+  height: 480px;
+  object-fit: cover;
+}
+
+.product-reassurance {
+  padding: 10px;
+  margin-top: 15px;
+  background: #ffffff;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+  font-size: 13px;
+}
+
+.product-reassurance .list-inline {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.product-reassurance .list-inline li:hover {
+  color: #343a40;
+}
+
+.social-media-icons {
+  padding: 10px;
+  margin-top: 15px;
+  background: #ffffff;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+  font-size: 13px;
+}
+
+.social-media-icons .list-inline {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.social-media-icons .list-inline li:hover {
+  color: #343a40;
+}
+
+.datasheet a i {
+  padding-right: 5px;
+}
+/* =========== hotelDetailsCard CSS Ends =========== */
+
+
+/* =========== tabsJustified CSS Starts =========== */
+#tabsJustifiedHotel .nav-item {
+  width: 100%;
+}
+
+#tabsJustifiedHotel .nav-item a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 500; 
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid rgba(0,0,0,.125);
+  text-align: center;
+}
+
+#tabsJustifiedHotel .nav-item a.active {
+  background-color: #e50716;
+  color: #fff;
+  border-bottom: none;
+}
+
+.programme-day {
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #e50716;
+}
+
+.programme-location {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #e50716;
+}
+
+.programme-date {
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #000;
+}
+
+.programme-explanation {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  border-left: 1px solid #343a40;
+  padding: 0 0 10px 10px;
+  margin-bottom: 30px;
+}
+
+.information-header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.information-list li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #343a40;
+  list-style-type: none;
+}
+
+.information-list li i {
+  padding-right: 5px;
+}
+
+.param {
+  margin-bottom: 7px;
+  line-height: 1.4;
+}
+
+.param-inline dt {
+  display: inline-block;
+}
+
+.param dt {
+  margin: 0;
+  margin-right: 7px;
+  font-weight: 600;
+}
+
+.param-inline dd {
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+.shopping-cart-wrap .price {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+  display: block;
+}
+
+var {
+  font-style: normal;
+}
+
+.media img {
+  margin-right: 1rem;
+}
+
+.img-sm {
+  width: 90px;
+  max-height: 75px;
+  object-fit: cover;
+}
+
+.number-of-people select {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.comment-wrapper .panel-body {
+    max-height:650px;
+    overflow:auto;
+}
+
+.comment-wrapper .media-list .media img {
+    width:64px;
+    height:64px;
+    border:2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+    border-bottom:1px dashed #efefef;
+    margin-bottom:25px;
+}
+/* =========== tabsJustified CSS Ends =========== */
+/* ++++++++++++++++++++ OTELDETAY.HTML PAGE CSS ENDS ++++++++++++++++++++  */
+

@@ -1,0 +1,66 @@
+
+@media (min-width: 1281px) {
+.TourInformation h3 {font-size: 14px;}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .TourInformation h3 {font-size: 10px;}
+  .hotelsCardPrice .discount {display:none;}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .TourInformation  {margin:10px 0 0 -15px;}
+    .TourInformation h3 {font-size: 13px;}
+    .hotelsCardPrice .discount {display: none;}  
+    .toursCardPrice {margin-bottom:20px;}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .TourInformation  {margin:10px 0 0 -15px;}
+  .TourInformation h3 {font-size: 11px;}
+  .hotelsCardPrice .discount {display: none;}
+  .dropdown .dropdown-menu {display:none !important;} 
+  .TourInformation {margin: 15px;}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .hotelsCardPrice .discount {display: none;}
+  .TourInformation h3 {font-size: 14px;}
+  .dropdown .dropdown-menu {display:none !important;}
+  .toursCardPrice {margin-bottom:20px;}
+  .TourInformation {margin: 15px;}
+  .top-socials {display: none;}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .TourInformation h3 {font-size: 14px;}
+  .hotelsCardPrice .discount {display: none;}
+  .toursCardPrice {margin-bottom:20px;}
+  .TourInformation {margin: 15px;}
+  .top-socials {display:none;}
+  .carouselNuh div img {height: 650px;}
+  .footer-bottom-menu-col {width: 33.3%;}
+}
+
